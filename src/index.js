@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 const store = createStore(manageRestaurant)
-
+window.document.zzz = store;
 
 ReactDOM.render(
   <Provider store={store}>

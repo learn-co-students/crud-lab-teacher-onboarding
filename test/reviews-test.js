@@ -104,7 +104,6 @@ describe('ReviewInput Component', () => {
   });
 });
 
-// move on to testing the reviews component
 describe('Reviews Component', () => {
   it('is a child of the ReviewsContainer component', () => {
     const store = createStore(manageRestaurant);
